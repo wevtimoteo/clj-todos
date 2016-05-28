@@ -8,3 +8,6 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
+
+# H2 Database files
+db/*.h2.db
