@@ -8,7 +8,8 @@
                  [hiccup "1.0.2"]
                  [org.clojure/java.jdbc "0.2.3"]
                  [com.h2database/h2 "1.3.170"]]
-  :plugins [[lein-ring "0.9.7"]]
+  :plugins [[lein-ring "0.9.7"]
+            [lein-exec "0.3.6"]]
   :ring {:handler clj-todos.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
